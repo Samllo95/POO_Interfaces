@@ -18,8 +18,8 @@ public class FiguraGeometrica implements Area, Perimetro{
     }
 
     @Override
-    public double calcuPerimetro(double ladosA, double ladosB) {
-        double perim=ladosA+ladosB;
+    public double calcuPerimetro(double l1, double l2, double l3, double l4) {
+        double perim=l1+l2+l3+l4;
         return perim;
     }
     

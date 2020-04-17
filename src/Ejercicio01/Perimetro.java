@@ -10,5 +10,5 @@ package Ejercicio01;
  * @author samll
  */
 public interface Perimetro {
-    public double calcuPerimetro(double ladosA, double ladosB);
+    public double calcuPerimetro(double l1, double l2, double l3, double l4);
 }
